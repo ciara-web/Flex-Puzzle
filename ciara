@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="grid-container">
+        <!-- Section 1: Ciara and Butterfly puzzle -->
+        <section class="header">
+            <h1>Ciara</h1>
+            <h2>Puzzle: Butterflies</h2>
+        </section>
+        
+        <!-- Section 2: Flexbox Puzzle Container -->
+        <section class="puzzle">
+            <h3>Assembled Puzzle</h3>
+            <div class="flex-container">
+                <div class="piece" id="piece1"></div>
+                <div class="piece" id="piece2"></div>
+                <div class="piece" id="piece3"></div>
+                <div class="piece" id="piece4"></div>
+                <div class="piece" id="piece5"></div>
+                <div class="piece faulty" id="piece6"></div> <!-- faulty piece, hidden -->
+            </div>
+        </section>
+
+        <!-- Section 3: Assignment Date -->
+        <section class="date">
+            <p>Completed on: November 22, 2024</p>
+        </section>
+    </div>
+</body>
+</html>
